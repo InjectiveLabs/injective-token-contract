@@ -1,0 +1,18 @@
+{
+  "manifestVersion": "2.2",
+  "contracts": {
+    "InjectiveToken": "InjectiveToken"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^2.3.0"
+  },
+  "name": "injective-token",
+  "version": "1.0.0",
+  "compiler": {
+    "manager": "openzeppelin",
+    "solcVersion": "0.5.2",
+    "compilerSettings": {
+      "optimizer": {}
+    }
+  }
+}
