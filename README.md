@@ -23,7 +23,17 @@ To deploy the Injective Token to your development network, initialize your local
 $ ganache-cli --deterministic
 ```
 
+Then in a separate Terminal tab, initialize the Open Zeppelin SDK project:
+```bash
+$ oz init
+? Welcome to the OpenZeppelin SDK! Choose a name for your project injective-token
+? Initial project version 1.0.0
+Project initialized. Write a new contract in the contracts folder and run 'openzeppelin create' to deploy it.
+```
+
+
 Then you can easily deploy the Injective Token Contract with the following steps:
+
 ```bash
 $ oz create
 ? Pick a contract to instantiate InjectiveToken
