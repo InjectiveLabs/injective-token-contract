@@ -66,6 +66,7 @@ typings/
 .openzeppelin/.session
 .openzeppelin/dev-*
 .openzeppelin/rinkeby*
+.openzeppelin/kovan*
 .idea/
 temp/
 

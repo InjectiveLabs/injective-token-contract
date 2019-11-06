@@ -4,7 +4,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const infuraProjectId = process.env.INFURA_PROJECT_ID;
 const infuraRinkebyEndpoint = "https://rinkeby.infura.io/v3/" + infuraProjectId;
 const alchemyRinkebyEndpoint = process.env.ALCHEMY_RINKEBY_ENDPOINT;
-const alchemyKovanEndpoint = process.env.ALCHEMY_RINKEBY_ENDPOINT;
+const alchemyKovanEndpoint = process.env.ALCHEMY_KOVAN_ENDPOINT;
 
 module.exports = {
   networks: {
