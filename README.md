@@ -46,12 +46,12 @@ pausers: address[])
 ? symbol (string): INJ
 ? decimals (uint8): 18
 ? initialSupply (uint256): 100e18
-? initialHolder (address): 0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1
+? initialHolder (address): 0x5409ED021D9299bf6814279A6A1411A7e866A631
 ? minters (address[]):
 ? pausers (address[]):
-✓ Instance created at 0x22d5C8BdD4346b390014a07109a8F830094d4abf
-0x22d5C8BdD4346b390014a07109a8F830094d4abf
+✓ Instance created at 0x74341e87b1c4dB7D5ED95F92b37509F2525A7A90
+0x74341e87b1c4dB7D5ED95F92b37509F2525A7A90
 ```
 
-This creates an instance of the [`InjectiveToken`](https://github.com/InjectiveLabs/injective-token-contract/blob/master/contracts/InjectiveToken.sol) at `0x22d5C8BdD4346b390014a07109a8F830094d4abf` (the deployed address will be different in each deployment). 
+This creates an instance of the [`InjectiveToken`](https://github.com/InjectiveLabs/injective-token-contract/blob/master/contracts/InjectiveToken.sol) at `0x74341e87b1c4dB7D5ED95F92b37509F2525A7A90` (the deployed address will be different in each deployment). 
 

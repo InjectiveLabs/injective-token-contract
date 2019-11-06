@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # build folder
-build/ 
+build/
 
 # Runtime data
 pids
@@ -64,3 +64,6 @@ typings/
 .next
 
 .openzeppelin/.session
+.openzeppelin/dev-*
+.idea/
+temp/
