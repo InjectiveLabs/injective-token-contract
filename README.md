@@ -1,6 +1,9 @@
 # Injective Token ERC-20 Contract
 The Injective (INJ) ERC-20 token contract is created with the [OpenZeppelin Contracts Ethereum Package](https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package). 
 
+It is currently deployed on the Rinkeby Testnet at [`0xf1296687963C746D9A2311015A41C78F9BEfEE44`](https://rinkeby.etherscan.io/address/0xf1296687963C746D9A2311015A41C78F9BEfEE44). 
+
+
 The token is an upgradable ERC20 token implementing the IERC20 interface.
 
 ## Installation
@@ -8,13 +11,13 @@ The token is an upgradable ERC20 token implementing the IERC20 interface.
 To begin with the project you need to install a usual NodeJS environment and yarn. You must also install the Open Zeppelin SDK CLI and the Ganache CLI:
 
 ```bash
-$ yarn global add @openzeppelin/cli ganache-cli
+$ npm install -g @openzeppelin/cli ganache-cli
 ```
 
 After that, you can start fetching vendored dependencies:
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
 To deploy the Injective Token to your development network, initialize your local Ganache instance:
@@ -54,4 +57,3 @@ pausers: address[])
 ```
 
 This creates an instance of the [`InjectiveToken`](https://github.com/InjectiveLabs/injective-token-contract/blob/master/contracts/InjectiveToken.sol) at `0x74341e87b1c4dB7D5ED95F92b37509F2525A7A90` (the deployed address will be different in each deployment). 
-

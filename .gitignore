@@ -65,5 +65,8 @@ typings/
 
 .openzeppelin/.session
 .openzeppelin/dev-*
+.openzeppelin/rinkeby*
 .idea/
 temp/
+
+.DS_Store

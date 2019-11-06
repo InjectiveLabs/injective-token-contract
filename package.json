@@ -8,7 +8,10 @@
     "@openzeppelin/upgrades": "^2.5.3",
     "web3": "^1.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.23",
+    "dotenv": "^8.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
