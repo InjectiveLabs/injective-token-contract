@@ -8,9 +8,13 @@
   "version": "1.0.0",
   "compiler": {
     "manager": "openzeppelin",
-    "solcVersion": "0.5.2",
+    "solcVersion": "0.5.13",
     "compilerSettings": {
-      "optimizer": {}
+      "optimizer": {
+        "enabled": true,
+        "runs": "200"
+      }
     }
-  }
+  },
+  "telemetryOptIn": false
 }
