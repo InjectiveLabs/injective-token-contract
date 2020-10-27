@@ -9,7 +9,7 @@
     "web3": "^1.2.6"
   },
   "devDependencies": {
-    "@truffle/hdwallet-provider": "^1.0.23",
+    "@truffle/hdwallet-provider": "^1.1.1",
     "dotenv": "^8.2.0"
   },
   "scripts": {
