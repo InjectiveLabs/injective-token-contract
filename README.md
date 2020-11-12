@@ -1,8 +1,9 @@
 # Injective Token ERC-20 Contract
 The Injective (INJ) ERC-20 token contract is created with the [OpenZeppelin Contracts Ethereum Package](https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package). 
 
-It is currently deployed on the Kovan Testnet at [`0xb952e28597fab7a4a6aac6d326afd517f3bfbed4`](https://kovan.etherscan.io/address/0xb952e28597fab7a4a6aac6d326afd517f3bfbed4). 
+It is deployed on Ethereum Mainnet at [`0xe28b3b32b6c345a34ff64674606124dd5aceca30`](https://etherscan.io/address/0xe28b3b32b6c345a34ff64674606124dd5aceca30#code). 
 
+It is also deployed on the Kovan Testnet at [`0xb952e28597fab7a4a6aac6d326afd517f3bfbed4`](https://kovan.etherscan.io/address/0xb952e28597fab7a4a6aac6d326afd517f3bfbed4). 
 
 The token is an upgradable ERC20 token implementing the IERC20 interface.
 
