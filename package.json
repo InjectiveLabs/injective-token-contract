@@ -4,7 +4,7 @@
   "description": "",
   "main": "networks.js",
   "dependencies": {
-    "@openzeppelin/contracts-ethereum-package": "^2.4.0",
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
     "@openzeppelin/upgrades": "^2.6.0",
     "web3": "^1.2.6"
   },
